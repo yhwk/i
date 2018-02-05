@@ -32,7 +32,7 @@ const valid = {
   validateVcode: (rule, value, callback) => {
     if (value === '') {
       callback(new Error('验证码不能为空'))
-    } else if (value !== this.a.state.common.vcode) {
+    } else if (value !== this.a.state.vcode) {
       callback(new Error('验证码错误'))
     } else {
       callback()

@@ -2,8 +2,8 @@ import axios from 'axios'
 import { Message } from 'element-ui'
 
 const api = {
-  // baseUrl: '/api',
-  baseUrl: '/v1/',
+  baseUrl: '/api',
+  // baseUrl: '/v1/',
   login: '/login',
   register: '/register',
   getVcode: 'http://test.zhifangw.cn:9990/vcode.img',

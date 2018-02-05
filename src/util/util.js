@@ -3,8 +3,8 @@ export default {
     let exp = new Date()
     exp.setTime(exp.getTime() + day * 24 * 60 * 60 * 1000)
     day ? exp = exp.toGMTString() : exp = 'Session'
-    document.cookie = `${name}=${encodeURIComponent(value)};expires=${exp};domain=zhifangw.cn`
-    // document.cookie = `${name}=${encodeURIComponent(value)};expires=${exp};path=null`
+    // document.cookie = `${name}=${encodeURIComponent(value)};expires=${exp};domain=zhifangw.cn`
+    document.cookie = `${name}=${encodeURIComponent(value)};expires=${exp};path=null`
   },
   getCookie (name) {
     let reg = new RegExp('(^| )' + name + '=([^;]*)(;|$)')

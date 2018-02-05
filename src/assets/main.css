@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  outline: none;
+}
+ul>li{
+  list-style-type: none;
+  line-height: 60px;
+}
+.panel-login .el-input .el-input__inner, .panel-register .el-input .el-input__inner, .pane.forget .el-input .el-input__inner{
+  padding-left: 90px;
+  height: 38px;
+  border-radius: 2px;
+}
+.pane.forget .box.two .el-input .el-input__inner{
+  padding-left: 120px;
+}
+.pane.forget .box.two .el-form .el-form-item__error{
+  margin-left: 120px;
+  font-size: 13px;
+}
+.panel-register .el-input .el-input__inner{
+  padding-left: 100px;
+}
+.panel-login .el-form .el-form-item__error, .pane.forget  .el-form-item__error{
+  margin-left: 90px;
+  font-size: 13px;
+}
+.panel-register .el-form .el-form-item__error{
+  margin-left: 100px;
+  font-size: 13px;
+}
+.panel-login .el-form .el-form-item{
+  margin-bottom: 30px;
+}
+.el-input input[type="password"]{
+  letter-spacing: 1px;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+  width: 6px;
+  height: 16px;
+  background-color: #ddd;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: rgba(180,180,180,.3)
+}
+.el-dialog__body {
+  padding-right: 2px;
+  padding-top: 10px;
+}
+.security .el-form-item--small .el-form-item__label{
+  text-align: right;
+  padding-right: 25px;
+}
+.el-step__head {
+  color: rgba(204, 204, 204, 0.6);
+}
+.el-step__line {
+  border-style: solid;
+  border-width: 2px;
+  height: 0!important;
+}
+.el-step__icon.is-text {
+  width: 30px;
+  height: 30px;
+  border-width: 3px;
+}
+.el-step__head.is-process .el-step__icon.is-text{
+  color: #dfb741;
+  border-color: #dfb741;
+}
+.el-step__head.is-process {
+  color:  rgba(204, 204, 204, 0.6);
+  border-color:  rgba(204, 204, 204, 0.6);
+}
+
+.el-step__title.is-process {
+  color: rgba(204, 204, 204, 0.6);
+}
+
+.el-step__head.is-wait {
+  color: rgba(204, 204, 204, 0.6);
+  border-color: rgba(204, 204, 204, 0.6);;
+}
+.el-step__line {
+  background-color: rgba(204, 204, 204, 0.6);;;
+}
+.pane-body {
+  padding: 23px 33px;
+}
+.pane-body>.title {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: #272727;
+}
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  background: #ebebeb;
+}
+.avatar {
+  width: 140px;
+  height: 140px;
+  display: block;
+  object-fit: contain;
+}
+.panel-login .el-checkbox__inner{
+  z-index: 0;
+}
+.el-button--warning {
+  background: #ffe474;
+  color: #333;
+  padding: 8px 20px;
+  border-radius: 2px;
+  border-color: #dcdfe6;
+}
+.el-button--warning:hover{
+}
+.box-title a{
+  color: #3a8ee6;
+}

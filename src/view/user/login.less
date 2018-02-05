@@ -1,0 +1,74 @@
+@item-height: 38px;
+@font-color: #333;
+@ligh-yellow: #ffe474;
+.center{
+  text-align: center;
+}
+
+.panel-login{
+  margin: 10px auto 50px;
+  background: #fff;
+  width: 800px;
+  color: @font-color;
+  .center;
+  box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.1);
+  .panel-header {
+    margin: 0 65px;
+    padding: 25px 0 14px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  .el-form {
+    width: 400px;
+    margin: 40px auto 30px;
+    .el-form-item {
+      label {
+        position: absolute;
+        top: 0;
+        left: 20px;
+      }
+      .el-checkbox {
+        left: 2px;
+        line-height: 16px;
+      }
+      button {
+        background: @ligh-yellow;
+        width: 220px;
+        outline: 0;
+        border: none;
+        font-size: 17px;
+        letter-spacing: 2px;
+        height: @item-height;
+        border-radius: 10px;
+        margin-top: 22px;
+        transition-duration: .3s;
+        &:hover {
+          opacity: .8;
+          color: #5d4a00;
+        }
+      }
+    }
+    a {
+      font-size: 14px;
+      color: @font-color;
+      float: right;
+    }
+  }
+}
+.prompt {
+  margin-bottom: 25px;
+  text-align: center;
+  span {
+    color: #b1b1b1;
+  }
+  a {
+    padding-right: 27px;
+    background: url(../../assets/prompt.png) no-repeat center right;
+    color: #dfb741;
+    &:hover{
+      color: @ligh-yellow;
+      transition-duration: .3s;
+    }
+  }
+}
